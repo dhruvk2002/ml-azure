@@ -8,7 +8,7 @@ model = joblib.load("student_exam_rf_model.pkl")
 
 # Initialize Flask app
 app = Flask(__name__)
-
+#my app
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
